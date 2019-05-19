@@ -1,1 +1,72 @@
-/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,300,200,500,600,700");
+
+
+
+*{
+    font-family: 'Montserrat', sans-serif; }
+.container1{
+ background: url(assets/images/slider_image_home@1x.png)no-repeat center center fixed;  
+    
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+    height: 768px;
+
+}
+
+.nav-font{
+    
+    padding-right:2.5em;
+    font-size: 1.1;
+  color: white;
+}
+
+hr{
+    margin: 0px auto !important;
+    width: 60%;
+    color:#d12730;
+    border:1px solid #d12730;
+}
+.text-title{
+  color:#d12730;
+  font-weight: bold
+}
+   
+.hrCard{
+    margin: 0px auto !important;
+    width: 30%;
+    
+    border:1px solid white;
+    margin-bottom: 2em !important;
+   
+}
+li a{
+  color:white ;
+}
+.remove-margin{
+  margin-bottom: 0em !important;}
+  
+  .container{
+      margin-top: 20px;
+  } 
+
+  .custom-file-label {
+    height: calc(2.7rem + 2px);
+    border: none;
+  }
+  .custom-file-label:hover{
+    background-color: #cf888881;
+  }
+  .custom-file-label::after {
+    height: calc(2.7rem + 2px);
+    background-color: black;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    content: "Send";
+    padding: 0.7rem 3.75rem;
+    border: 1px solid #000000;
+  }
+  

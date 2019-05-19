@@ -1,0 +1,39 @@
+<section class="container2 pb-5">
+  <div class="row w-100">
+    <div class=" mx-auto pt-5">
+      <h4 class="text-uppercase" style="color: #d12730">explore our services</h4>
+      <hr>
+    </div>
+  </div>
+  <!-- Carousel -->
+  <div class="container">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner row w-100 mx-auto"  >
+
+          <div class="carousel-item col-md-4 "  *ngFor="let item of file ; let isFirst = first" [class.active]="isFirst">
+              <div class="card">
+                <img class="card-img-top" src='http://{{item.imagePath}}' alt="Card image cap">
+                <div class="card-body">
+                  <hr class="hrCard">
+                  <p class="card-text text-center font-weight-bold" >{{item.label}}</p>
+                  <p class=" text-center font-weight-light remove-margin">{{item.description}}</p>
+                </div>
+              </div>
+              </div>
+
+
+
+
+
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+</section>

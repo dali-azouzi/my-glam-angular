@@ -1,0 +1,19 @@
+li a:hover{
+    text-decoration: none;
+    color:#d12730;
+}
+.nav-font{
+    
+    padding-right:2.5em;
+    font-size: 1.1;
+  color: white;
+}
+.textslide{
+    margin-top:6%;
+  
+  }
+  
+  
+  .paragraph1{
+      margin-top:16% !important;
+      }
